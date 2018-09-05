@@ -334,19 +334,20 @@ a.item__nav {
       width: 33.4%;
       height: 500px;
       position: relative;
-      background: #000; }
+      background: #000;
+      display: block; }
       .team_-container .row__top .block__team .team__text {
         height: 100%;
         width: 100%;
         position: absolute;
-        background: url("../img/team-bg.jpg");
+        background: url("../img/team-bg-min.jpg");
         background-size: cover;
         background-position: center; }
       .team_-container .row__top .block__team .team__person {
         height: 100%;
         width: 100%;
         position: absolute;
-        background: url("../img/jon_dow.jpg");
+        background: url("../img/jon_dow-min.jpg");
         background-size: cover;
         background-position: center;
         opacity: .4; }
@@ -401,13 +402,13 @@ a.item__nav {
         height: 100%;
         width: 100%;
         position: absolute;
-        background: url("../img/team-bg.jpg");
+        background: url("../img/team-bg-min.jpg");
         background-size: cover; }
       .team_-container .row__down .block__team .team__person {
         height: 100%;
         width: 100%;
         position: absolute;
-        background: url("../img/gir_master.jpg");
+        background: url("../img/gir_master-min.jpg");
         background-size: cover;
         background-position: center;
         opacity: .4; }
@@ -510,7 +511,7 @@ a.item__nav {
   .container__gallery .row__top {
     width: 100%;
     height: 320px;
-    background: url(../img/gallery/row1/2.jpg);
+    background: url(../img/gallery/row1/2-min.jpg);
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: 100% 50%; }
@@ -522,7 +523,7 @@ a.item__nav {
 
 .container__gallery {
   width: 100%;
-  background: url("../img/1.jpg");
+  background: url("../img/1-min.jpg");
   background-size: cover; }
   .container__gallery .row2 {
     display: -webkit-flex;
@@ -574,7 +575,7 @@ a.item__nav {
 .second__single {
   height: 350px; }
   .second__single .one__slide {
-    background: url("../img/our.png");
+    background: url("../img/our-min.png");
     background-size: cover;
     width: 100%;
     height: 350px;
@@ -763,7 +764,7 @@ a.item__nav {
   height: 500px; }
 
 .one__slide {
-  background: url("../img/our.png");
+  background: url("../img/our-min.png");
   background-size: cover;
   width: 100%;
   height: 350px;
@@ -776,7 +777,7 @@ a.item__nav {
   padding-top: 100px; }
 
 .new_bg {
-  background: url("../img/2.jpg");
+  background: url("../img/2-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   filter: blur(40%); }
