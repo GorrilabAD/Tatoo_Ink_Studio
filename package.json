@@ -1,0 +1,23 @@
+{
+  "name": "tatooink",
+  "version": "1.0.0",
+  "description": "\"site for tatoo-studios\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass sass/index.scss css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GorrilabAD/Tatoo-ink.git"
+  },
+  "author": "Gorrila-developer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GorrilabAD/Tatoo-ink/issues"
+  },
+  "homepage": "https://github.com/GorrilabAD/Tatoo-ink#readme",
+  "dependencies": {
+    "serve": "^6.5.6"
+  }
+}
