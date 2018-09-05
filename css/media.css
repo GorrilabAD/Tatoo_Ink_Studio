@@ -188,6 +188,12 @@
 }
 }
 @media screen and (max-width:768px) {
+  .slide__background {
+    display: none;
+  }
+  .slide__background_mob {
+    display: block;
+  }
 .a__container{
   margin: 0;
   text-align: center;

@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0; }
 
+.slide__background_mob {
+  display: none; }
+
 .hamburger__menu {
   position: absolute;
   display: none;
