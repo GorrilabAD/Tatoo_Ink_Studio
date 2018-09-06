@@ -9,6 +9,7 @@
 .hamburger__menu{
   position: absolute;
   display: none;
+  top: 0;
   width: 100px;
   height: 50px;
   bottom: -70px;
@@ -77,7 +78,8 @@
   background: rgba(0,0,0, .8);
   display: none;
   position: absolute;
-  top: 100%;
+  top: 0;
+  left: 0;
   z-index: 9999;
   display: flex;
   justify-content: center;
@@ -87,7 +89,6 @@
   .container__href{
     position: relative;
     width: 100%;
-    margin-top: 50px;
     padding-left: 50px;
       a {
         margin-top: 20px;
@@ -173,6 +174,17 @@ body{
           position: relative;
           top: 0;
           margin: 0 auto;
+          h1 {
+            font-family: 'Lobster';
+            color: #fff;
+            text-align: center;
+            font-size: 48px;
+          }
+          h3 {
+            font-family: 'Lobster';
+            color: #fff;
+            text-align: center;
+          }
         }
         .left__menu__items {
         display: -webkit-flex;
@@ -199,9 +211,9 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     font-family: 'Times New Roman';
-    color:  #1a1a1a;
+    color:  #fff;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: -0.18px;
     line-height: 23.782px;
     &:hover{
@@ -220,12 +232,11 @@ body{
   .line__down{
     width: 0%;
     height: 3px;
-    background: #000;
+    background: #fff;
     display: block;
     margin: 0 auto;
     margin-top: 10px;
     transition: all .4s ease;
-
   }
   &:hover .line__down{
     width: 100%;
